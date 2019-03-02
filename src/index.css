@@ -1,0 +1,112 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+#drum-machine {
+	-moz-box-shadow: 3px 4px 0px 0px #899599;
+	-webkit-box-shadow: 3px 4px 0px 0px #899599;
+	box-shadow: 3px 4px 0px 0px #899599;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #b5b5b5));
+	background: -moz-linear-gradient(top, #ededed 5%, #b5b5b5 100%);
+	background: -webkit-linear-gradient(top, #ededed 5%, #b5b5b5 100%);
+	background: -o-linear-gradient(top, #ededed 5%, #b5b5b5 100%);
+	background: -ms-linear-gradient(top, #ededed 5%, #b5b5b5 100%);
+	background: linear-gradient(to bottom, #ededed 5%, #b5b5b5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#b5b5b5', GradientType=0);
+	background-color: #ededed;
+	border: 1px solid #9c9c9c;
+	display: inline-block;
+	cursor: pointer;
+	color: #3a8a9e;
+	font-family: Arial;
+	font-size: 17px;
+	padding: 20px 25px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #e1e2ed;
+}
+
+#allButtons {
+	margin: 0 auto;
+	width: 230px;
+}
+
+.drum-pad {
+	height: 25px;
+	width: 25px;
+	-moz-box-shadow: inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow: inset 0px 1px 3px 0px #91b8b3;
+	box-shadow: inset 0px 1px 3px 0px #91b8b3;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #768d87), color-stop(1, #6c7c7c));
+	background: -moz-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background: -webkit-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background: -o-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background: -ms-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c', GradientType=0);
+	background-color: #768d87;
+	border: 1px solid #566963;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 11px 23px;
+	text-decoration: none;
+	text-shadow: 0px -1px 0px #2b665e;
+}
+
+.drum-pad:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87));
+	background: -moz-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background: -webkit-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background: -o-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background: -ms-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background: linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87', GradientType=0);
+	background-color: #6c7c7c;
+}
+
+.drum-pad:active {
+	position: relative;
+	top: 1px;
+}
+
+#display {
+	margin: 0 auto;
+	margin-top: 15px;
+	width: 150px;
+	height: 50px;
+	background-color: lightgrey;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9));
+	background: -moz-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background: -webkit-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background: -o-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background: -ms-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9', GradientType=0);
+	background-color: #f9f9f9;
+	border: 1px solid #757575;
+	display: inline-block;
+	cursor: pointer;
+	color: #666666;
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 6px 24px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #ffffff;
+}
